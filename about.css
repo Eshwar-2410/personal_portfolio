@@ -1,0 +1,76 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(90deg, rgb(118, 201, 255), rgb(247, 255, 222));
+    color: #333;
+}
+
+/* Main container styles */
+#photofield {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Photo fieldset styles */
+#photo {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 23px;
+   
+}
+
+#photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+/* Name fieldset styles */
+#name {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Graduation styles */
+#grad {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#graduations {
+    margin-bottom: 10px;
+}
+#linked:hover{
+    color: greenyellow;
+}
+#graduationed {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Links styles */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
